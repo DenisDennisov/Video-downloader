@@ -4,7 +4,7 @@ Application with interface for downloading videos from various resources, develo
 This application allows users to download videos from various sources in various formats and qualities using a graphical user interface (GUI). The yt-dlp library is used to download videos, and PyQt5 provides a user-friendly interface.
 #### The application is created as a portfolio.
 
-![Screenshot](https://github.com/DenisDennisov/Video-downloader/tree/main/images/video downloader.png)
+![Screenshot](https://github.com/DenisDennisov/Video-downloader/blob/main/images/video%20downloader.png)
 
 ## Requirements
 ___
