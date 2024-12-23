@@ -1,4 +1,5 @@
 import os
+
 import yt_dlp
 from PyQt5 import QtCore
 
@@ -64,7 +65,7 @@ class FindVideo(QtCore.QObject):
 
                 self.video_found_signal.emit()
 
-        except Exception:
+        except yt_dlp.DownloadError:
             self.video_not_found_signal.emit()
 
 
@@ -122,6 +123,5 @@ class DownloadVideo(QtCore.QObject):
 
                 self.completion_signal.emit()
 
-        except Exception:
+        except yt_dlp.DownloadError:
             self.error_signal.emit()
-
