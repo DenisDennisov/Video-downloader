@@ -28,14 +28,14 @@ def check_path(path: str, file_class: str, name_channel: str) -> str:
 
 def remove_name_video_simbols(name_video: str) -> str:
     """ Filter the video title by symbols. """
-    try:
-        remove_symbols = '!@#$%^&*()/|=+-_:;?><}{[]№".,'
+    if not isinstance(name_video, str):
+        return str(name_video)
 
-        for symbol in remove_symbols:
-            name_video = name_video.replace(symbol, '')
+    remove_symbols = '!@#$%^&*()/|=+-_:;?><}{[]№".,'
 
-    except OSError:
-        pass
+    for letter in name_video:
+        if letter in remove_symbols:
+            name_video = name_video.replace(letter, '')
 
     return name_video
 
