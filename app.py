@@ -1,5 +1,5 @@
 import sys
-from src.GUI import QtWidgets, MainWindow
+from src.gui import QtWidgets, MainWindow
 
 
 def main():

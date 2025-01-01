@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from PyQt5 import QtWidgets
 
-from src.GUI import MainWindow
+from src.gui import MainWindow
 
 
 class TestMainWindow(TestCase):
