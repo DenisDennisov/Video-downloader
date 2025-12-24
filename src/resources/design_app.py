@@ -472,7 +472,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.Link_Video_LineEdit.setPlaceholderText(_translate("MainWindow", "Add link youtube video..."))
+        self.Link_Video_LineEdit.setPlaceholderText(_translate("MainWindow", "Add link video..."))
         self.Check_Video_Button.setText(_translate("MainWindow", "Find video"))
         self.Autor_Program_Label.setText(_translate("MainWindow", "Program created by Denis Dennisov"))
         self.Progress_Text_Label.setText(_translate("MainWindow", "Download is started..."))
@@ -492,4 +492,4 @@ class Ui_MainWindow(object):
         self.Name_Program_Label_2.setText(_translate("MainWindow", "Console messages..."))
         self.Name_Program_Label.setText(_translate("MainWindow", "Video downloader"))
         self.Version_Program_Label.setText(_translate("MainWindow", "v1.0.0"))
-import src.icons_app
+import src.resources.icons_app

@@ -14,6 +14,7 @@ ___
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [requests](https://pypi.org/project/requests/)
 - [dotenv](https://github.com/theskumar/python-dotenv/)
+- [urllib3](https://pypi.org/project/urllib3/)
 - [colorama](https://pypi.org/project/colorama/)
 
 ## How to install
@@ -67,14 +68,14 @@ ___
 #### File sharing services (video only):
 - Dropbox, GoogleDrive, GoogleDrive:Folder, Yandex.Disk. 
 #### Video hosting:
-- 1tv, facebook, Video@Mail.Ru, Rutube, TikTok, Twitter, Vimeo, VK, Youtube, ZenYandex. 
+- Rutube, YouTube, twitch.tv, facebook, TikTok, VK video.
 #### Music: 
 - Music@Mail.Ru, Yandex.Music.
 #### [Source (click)](https://www.altlinux.org/Soft/yt-dlp)
 #### p.s. There are problems with downloading YouTube videos from Russia.
 
 ## Additionally
-Files with extensions ".ui" and ".qrc" have already been converted to ".py" format in the src folder.
+Files with extensions ".ui" and ".qrc" have already been converted to ".py" format in the "src/resources" folder.
 
 ## License
 ___
